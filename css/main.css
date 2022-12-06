@@ -401,8 +401,8 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 58, 52, 0.4)), to(rgba(47, 58, 52, 0.4))), url(../images/new-foto.jpg);
-  background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)), url(../images/new-foto.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 58, 52, 0.4)), to(rgba(47, 58, 52, 0.4))), url(../../images/newfoto.jpg);
+  background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)), url(../../images/newfoto.jpg);
   background-color: #2f303a;
 }
 

@@ -1,8 +1,3 @@
-.hero {
-  background-color: $heroBackgroungColor;
-  color: $primaryBackgroundColor;
-  text-align: center;
-}
 .overlay {
   max-width: 1600px;
   margin-left: auto;
@@ -10,6 +5,12 @@
   background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)),
     url(../../images/new-foto.jpg);
 }
+.hero {
+  background-color: $heroBackgroungColor;
+  color: $primaryBackgroundColor;
+  text-align: center;
+}
+
 .hero__title {
   width: 696px;
   margin-bottom: 30px;

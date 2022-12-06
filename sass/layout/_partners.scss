@@ -1,0 +1,32 @@
+.partners {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.partners__item {
+  margin-right: $featuresSetGap;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.partners__link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+
+  border: 1px solid #afb1b8;
+  border-radius: $buttonBorderRadius;
+  fill: #afb1b8;
+
+  transition-property: background-color, fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: $linkHoverColor;
+    border: 1px solid $linkHoverColor;
+  }
+}

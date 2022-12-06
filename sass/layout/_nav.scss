@@ -1,0 +1,65 @@
+.nav {
+  display: flex;
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.list__nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.list__item:not(:last-child) {
+  margin-right: 50px;
+}
+.list__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: $secondaryTextColor;
+  text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $linkHoverColor;
+  }
+}
+
+.list__link--current {
+  color: $linkHoverColor;
+}
+.list__contact {
+  display: flex;
+  margin-left: auto;
+}
+.list__link--contact {
+  display: flex;
+  align-items: center;
+  fill: $primaryTextColor;
+
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: $linkHoverColor;
+    color: $linkHoverColor;
+  }
+}
+.list__envelope {
+  margin-right: 10px;
+}

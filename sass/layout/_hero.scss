@@ -1,0 +1,32 @@
+.hero {
+  background-color: $heroBackgroungColor;
+  color: $primaryBackgroundColor;
+  text-align: center;
+}
+.overlay {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)),
+    url(../../images/new-foto.jpg);
+}
+.hero__title {
+  width: 696px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero__button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}

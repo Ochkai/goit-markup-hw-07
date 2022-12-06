@@ -6,7 +6,8 @@
     url(../../images/new-foto.jpg);
 }
 .hero {
-  background-color: $heroBackgroungColor;
+  background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)),
+    url(../../images/new-foto.jpg);
   color: $primaryBackgroundColor;
   text-align: center;
 }

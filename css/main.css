@@ -508,7 +508,8 @@ body {
 }
 
 .hero {
-  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 58, 52, 0.4)), to(rgba(47, 58, 52, 0.4))), url(../../images/new-foto.jpg);
+  background-image: linear-gradient(to right, rgba(47, 58, 52, 0.4), rgba(47, 58, 52, 0.4)), url(../../images/new-foto.jpg);
   color: #ffffff;
   text-align: center;
 }

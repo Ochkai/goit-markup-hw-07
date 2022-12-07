@@ -243,6 +243,7 @@ summary {
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #757575;
 }
 
 img {
@@ -329,18 +330,18 @@ img {
   list-style: none;
 }
 
-.list__nav {
+.nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
 }
 
-.list__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.list__link {
+.nav-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -353,11 +354,11 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list__link:hover, .list__link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: #2196f3;
 }
 
-.list__link--current {
+.nav-list__link--current {
   color: #2196f3;
 }
 
@@ -368,7 +369,7 @@ img {
   margin-left: auto;
 }
 
-.list__link--contact {
+.nav-list__link--contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +384,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list__link--contact:hover, .list__link--contact:focus {
+.nav-list__link--contact:hover, .nav-list__link--contact:focus {
   fill: #2196f3;
   color: #2196f3;
 }
@@ -843,6 +844,7 @@ img {
 .section__name {
   margin-bottom: 50px;
   margin-top: 0px;
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -869,10 +871,10 @@ img {
   border-radius: 4px;
   background-color: #2196f3;
   color: #ffffff;
-  -webkit-transition-property: background-color, -webkit-box-shadow;
-  transition-property: background-color, -webkit-box-shadow;
-  transition-property: background-color, box-shadow;
-  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow, color;
+  transition-property: background-color, box-shadow, color, -webkit-box-shadow;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -882,6 +884,7 @@ img {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 .button__list {
@@ -970,6 +973,7 @@ img {
   margin-bottom: 10px;
   margin-top: 0;
   padding: 0;
+  color: #212121;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1038,6 +1042,7 @@ img {
 .command__people {
   margin-bottom: 10px;
   margin-top: 0;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
